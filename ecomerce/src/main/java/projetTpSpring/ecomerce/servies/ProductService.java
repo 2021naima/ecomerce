@@ -53,6 +53,11 @@ public class ProductService implements IProductService {
     }
 
     @Override
+    public Product findByMatiere(String nomMatiereP) {
+        return null;
+    }
+
+    @Override
     public void updateProduct(String nomp, String nomc) {
         Product product = productRepository.findByName(nomp);
         Category category = categoryRepository.findByName(nomc);

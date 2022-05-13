@@ -13,4 +13,5 @@ public interface IProductService {
     public Product upProduct(Long id,Product product);
     public void deleteById(Long id);
     public void productCat(String nomp,String nomc);
+    public Product findByMatiere(String nomMatiereP);
 }
